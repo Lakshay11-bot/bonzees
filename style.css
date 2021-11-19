@@ -1,0 +1,203 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    text-transform: uppercase !important;
+}
+.navbar{
+    background-color:black!important;
+    color: white !important;
+    padding: 0px !important;
+    justify-content: space-around !important;
+    align-content: space-around;
+
+   
+    
+}
+.navbar a{
+    color: greenyellow !important;
+}
+
+.navbar li{
+    padding: 20px !important;
+    
+}
+
+.navbar li :hover {
+    text-decoration: underline;
+}
+.logo{
+    width: 60px !important;
+    height: 80px !important;
+
+}
+
+
+.landing_page{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    background-color:greenyellow !important;
+    min-height: 400px !important;
+
+}
+
+.text_area{
+    padding-top: 140px !important;
+    align-items: center;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+
+}
+
+.text_area h5{
+    padding-top: 40px !important;
+}
+.image-area{
+    padding:60px !important;
+    display: flex;
+    flex-direction:row !important ;
+    flex-wrap: wrap !important;
+    justify-content: space-between!important;
+    
+    
+}
+
+
+
+.image{
+    border: white solid 20px !important;
+    height:250px !important;
+    width:250px !important;
+
+    
+}
+.image1{
+    border: white solid 10px !important;
+    height: 250px !important;
+    width:250 !important;
+    margin-bottom: 10px !important;
+}
+
+.gallery_button{
+    margin-top: 120px !important;
+    border-radius: 20px !important;
+    padding :10px !important;
+    color:greenyellow !important;
+    background-color: black;
+   border: none !important;
+}
+.gallery_button:hover{
+    background-color: greenyellow;
+    color:black !important;
+    border: black solid 2px !important;
+}
+
+.our_drop{
+    background-color: black!important;
+    min-height: 800px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    padding-top: 40px !important;
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+}
+.our_drop h1{
+    color :white !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+}
+
+
+.center_display{
+    padding :30px !important;
+    margin-top: 40px !important;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    min-height: 100px !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+}
+.center_display h1{
+    padding-bottom: 20px !important;
+}
+
+.center_display ul{
+    padding:20px !important;
+    display: flex !important;
+    flex-direction:row!important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+
+}
+.center_display p{
+    color: white !important;
+    text-align: center !important;
+}
+.center_display li{
+    padding-bottom: 30px !important;
+}
+
+.contact-section{
+    display: flex !important;
+    flex-wrap: wrap  !important;
+    flex-direction: column!important;
+    height: 200px !important;
+    background-color: greenyellow !important;
+    color: white !important;
+    text-align: center !important;
+    padding:20px !important;
+    text-align: justify;
+}
+.contact-section a{
+    
+    text-decoration: none !important;
+    color:black !important;
+}
+
+.logo_socials{
+    height:40px;
+    width:40px;
+    margin-right: 10px !important;
+    
+}
+
+.socials{
+    display: flex !important;
+    flex-wrap: wrap  !important;
+    flex-direction: row!important;
+    justify-content: space-evenly!important;
+    margin-top: 20px  !important;
+
+    
+
+}
+
+.contact-section p{
+    margin-top: 15px !important;
+}
+
+@media (max-width:420px){
+    .image-area{
+        padding: none !important ;
+    }
+    .logo_socials{
+        height:30px;
+        width:30px;
+        margin-right: 10px !important;
+        
+    }
+
+    .gallery_button{
+        margin-top: 40px!important;
+        margin-bottom: 40px !important;
+        margin-left: 50px !important;
+        margin-right: 30px !important;
+    }
+}
